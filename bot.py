@@ -6,8 +6,8 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 
-EMAIL = os.getenv("prasadrmore786@gmail.com")
-PASSWORD = os.getenv("Seema@786")
+EMAIL = os.getenv("NAUKRI_EMAIL")
+PASSWORD = os.getenv("NAUKRI_PASSWORD")
 
 options = Options()
 options.add_argument("--headless=new")
